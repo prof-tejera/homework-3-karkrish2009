@@ -11,7 +11,7 @@ const Pager = () => {
   let numbers = Array.from({ length: (stop - start) / step}, (_, i) => start + (i * step));
 
 
-  console.log(numbers);
+  //console.log(numbers);
 
   return (
 

@@ -14,7 +14,7 @@ const MediaButtons = () => {
     }
   };
 
-  console.log(activeType);
+  //console.log(activeType);
 
   return (
     <Panel backgroundColor="blue">
