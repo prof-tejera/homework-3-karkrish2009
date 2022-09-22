@@ -1,30 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@karkrish2009
-prof-tejera /
-react-deployment-code
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-react-deployment-code/.github/workflows/build-deploy.yml
-@nicoten
-nicoten base
-Latest commit 5ccdb07 on Aug 22, 2021
-History
-1 contributor
-57 lines (46 sloc) 1.06 KB
 name: Build & deploy
 
 on:
