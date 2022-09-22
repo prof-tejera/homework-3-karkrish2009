@@ -16,7 +16,7 @@ const Pager = () => {
   return (
 
     <div class="pagination">
-      {numbers ? numbers.map(number => <PagerButton text={number} />) : ""};
+      {numbers ? numbers.map(number => <PagerButton text={number} />) : ""}
     </div>
   );
 };

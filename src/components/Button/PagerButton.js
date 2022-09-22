@@ -3,7 +3,7 @@ import "./Button.css";
 const PagerButton = ({text}) => {
   console.log(text);
   return (
-    <a href="#">
+    <a href="#top">
       {text}
     </a>
   );
