@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//homework-3-karkrish2009/static/css/main.edd13103.css",
-    "main.js": "//homework-3-karkrish2009/static/js/main.dfbc2752.js",
-    "index.html": "//homework-3-karkrish2009/index.html",
-    "main.edd13103.css.map": "//homework-3-karkrish2009/static/css/main.edd13103.css.map",
-    "main.dfbc2752.js.map": "//homework-3-karkrish2009/static/js/main.dfbc2752.js.map"
+    "main.css": "/homework-3-karkrish2009/static/css/main.edd13103.css",
+    "main.js": "/homework-3-karkrish2009/static/js/main.dfbc2752.js",
+    "index.html": "/homework-3-karkrish2009/index.html",
+    "main.edd13103.css.map": "/homework-3-karkrish2009/static/css/main.edd13103.css.map",
+    "main.dfbc2752.js.map": "/homework-3-karkrish2009/static/js/main.dfbc2752.js.map"
   },
   "entrypoints": [
     "static/css/main.edd13103.css",
