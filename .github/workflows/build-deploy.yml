@@ -1,3 +1,30 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@karkrish2009
+prof-tejera /
+react-deployment-code
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+
+    Insights
+
+react-deployment-code/.github/workflows/build-deploy.yml
+@nicoten
+nicoten base
+Latest commit 5ccdb07 on Aug 22, 2021
+History
+1 contributor
+57 lines (46 sloc) 1.06 KB
 name: Build & deploy
 
 on:
@@ -12,22 +39,22 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    
+
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
         node-version: 13.x
-    
+
     - name: Install NPM packages
       run: npm ci
-    
+
     - name: Build project
       run: npm run build
-    
+
     - name: Run tests
       run: npm run test
 
@@ -36,13 +63,13 @@ jobs:
       with:
         name: production-files
         path: ./build
-  
+
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    
+
     steps:
     - name: Download artifact
       uses: actions/download-artifact@v2
